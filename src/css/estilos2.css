@@ -1,0 +1,56 @@
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 4em 1em;
+    flex: 1;
+}
+
+
+.escrito {
+    margin-top: 1em;
+}
+
+
+footer {
+
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+
+.teste {
+    display: flex;
+    margin-bottom: 2em;
+    max-width: 1440px;
+    align-items: center;
+
+}
+
+
+.teste .logo {
+    width: 7em;
+
+}
+
+.teste .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.teste nav {
+    font-weight: bold;
+    color: #000000;
+    font-size: 45px;
+    margin-right: 1em;
+    border-radius: 50px;
+    transition: 0.2s;
+}
